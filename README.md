@@ -1,2 +1,2 @@
 # Sainsburys
-demo
+demo of flickr image test.
