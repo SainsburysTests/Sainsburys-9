@@ -1,0 +1,31 @@
+#flickr-container {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    img {
+        opacity: 0.5;
+        padding: .5em;
+    }
+    
+    .selected {
+        opacity: 1;
+    }
+    
+    @media (max-width: 768px) {
+        li {
+            display: block;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
